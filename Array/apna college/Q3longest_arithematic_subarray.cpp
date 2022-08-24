@@ -17,7 +17,6 @@ int main()
     for (int i = 0; i < n; i++)
     {
         cin >> a[i];
-        /* code */
     }
     int curr = 2, ans = 2, pd = a[1] - a[0], j = 2;
 
@@ -26,15 +25,12 @@ int main()
         if (pd == a[j] - a[j - 1])
         {
             curr++;
-            /* code */
         }
         else
         {
             pd = a[j] - a[j - 1];
 
             curr = 2;
-
-            /* code */
         }
         ans = max(ans, curr);
         j++;
