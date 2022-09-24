@@ -1,11 +1,11 @@
 #include <iostream>
-#include <process.h>
+//#include <process.h>
 using namespace std;
 
 int main()
 {
-    system("cls");
-    system("color a");
+ //   system("cls");
+   // system("color a");
 
     int num1, num2;
     cin >> num1 >> num2;
