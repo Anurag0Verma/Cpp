@@ -11,15 +11,15 @@ int main()
     cout << "n = ";
     cin >> n;
     int arr[n];
-    cout << "arr[] =";
     for (int i = 0; i < n; i++)
     {
+        cout << "arr[" << i << "] = ";
         cin >> arr[i];
     }
     cout << "printing arr" << endl;
     for (int i = 0; i < n; i++)
     {
-        cout << arr[i] << " ";
+        cout << "arr[" << i << "] = " << arr[i] << endl;
         /* code */
     }
 
