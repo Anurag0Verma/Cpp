@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int a[] = {48, 96, 46, 75, 71, 5, 58, 57}, n = sizeof(a) / sizeof(a[0]);
+    int a[] = {48, 96, 46, 75, 71, 5, 58, 57, 75}, n = sizeof(a) / sizeof(a[0]);
     int largest = -1, secondlargest = -1;
     int smallest = INT_MAX, secondsmallest = 0;
     for (int i = 0; i < n; i++)
